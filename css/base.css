@@ -1,0 +1,64 @@
+/* 初始化代码 */
+/* 去除常用标签默认样式 */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* 统一网页字体大小，字体类型，行高等 */
+
+html,
+body {
+  width: 100%;
+  overflow-x: hidden;
+  /* 禁止横向滑动 */
+}
+
+body {
+  font-size: 6px;
+  font-family: 'PingFang SC';
+  line-height: 1.0;
+  color: #333;
+  width: 100%;
+}
+
+/* 去除列表默认样式*/
+ul,
+ol {
+  list-style: none;
+}
+
+/* 去除默认倾斜效果 */
+em,
+i {
+  font-style: normal;
+}
+
+/* 去除a标签默认下划线 */
+a {
+  text-decoration: none;
+  color: #333;
+}
+
+/* 设置img标签垂直居中 */
+img {
+  vertical-align: middle;
+}
+
+/* 去除表单默认样式 */
+input {
+  outline: none;
+  border: none;
+}
+
+/* 去除标题加粗 */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 400;
+}
